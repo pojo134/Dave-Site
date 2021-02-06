@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: "Lato", sans-serif;
+      }
+
+      .sidenav {
+        height: 100%;
+        width: 160px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(212, 120, 200);
+        overflow-x: hidden;
+        padding-top: 20px;
+      }
+
+      .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+      }
+
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+
+      .main {
+        margin-left: 160px; /* Same as the width of the sidenav */
+        font-size: 28px; /* Increased text to enable scrolling */
+        padding: 0px 10px;
+        text-align: center;
+        background-color: rgb(212, 120, 200);
+      }
+
+      @media screen and (max-height: 450px) {
+        .sidenav {
+          padding-top: 15px;
+        }
+        .sidenav a {
+          font-size: 18px;
+        }
+      }
+
+      .card-text {
+        font-size: 12px;
+      }
+
+      .card {
+        background-color: rgb(207, 172, 203);
+      }
+      .btn-secondary {
+        background-color: rgb(207, 172, 203);
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidenav">
+      <img src="logo.jpg" class="img-fluid" />
+      <a class="btn btn-secondary" href="#" role="button">Our Pastors</a><br />
+      <a class="btn btn-secondary" href="#" role="button">We Believe</a><br />
+      <a class="btn btn-secondary" href="#" role="button">Ministry</a>
+      <br />
+      <div class="btn btn-secondary">
+        Service Times<br /><br />
+
+        Sunday Morn 11:00<br />
+        Sunday Eve 6:00<br />
+        Wed Eve 7:00<br /><br />
+
+        Everyone Welcome
+      </div>
+    </div>
+
+    <div class="main">
+      <h1>Revival Tabernacle</h1>
+      <h5>Mount Holly, NC</h5>
+      <p>"A place for all people"</p>
+      <img src="main.jpg" class="img-fluid" />
+      <br /><br />
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div
+              id="map-container-google-1"
+              class="z-depth-1-half map-container"
+              style="height: 50px"
+            >
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3255.933333157834!2d-81.03398378523981!3d35.30763795797836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8856bc629dcf99b5%3A0x641a216e90f3b553!2sRevival%20Tabernacle%20of%20Mt%20Holly!5e0!3m2!1sen!2sus!4v1586791272563!5m2!1sen!2sus"
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">Revival Tabernacle</h5>
+                <p class="card-text">
+                  Mount Holly, NC <br />826 W Charlotte Ave <br />Mount Holly,
+                  NC 28120<br />
+                  PastorDavidGoode@gmail.com
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
